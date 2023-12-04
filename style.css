@@ -34,7 +34,10 @@
 .container .nav {
 
     display: flex;
-    
+    width: 80%;
+    /* border : 1px solid red; */
+  justify-content: space-between;
+    margin: auto;
 }
 
 
@@ -43,7 +46,7 @@
 
 .logo{
 
-    margin: auto;
+   
 }
 
 .logo img{
@@ -52,25 +55,25 @@
     
 }
 
-.menu-links{
-    margin: auto;
-}
+
 
 
 .page-name{
 
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
-    position: absolute;
-    right: 30px;
-    top: 30px;
+    align-items: center;
+      
+   
 }
+
 
 
 .page-name li {
 
     display: inline-block;
-    padding-left: 30px;
+    padding: 0 20px 0 20px ;
+    list-style-type: none;
     
     
 }
