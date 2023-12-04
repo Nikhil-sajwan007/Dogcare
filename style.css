@@ -26,6 +26,8 @@
 .container{
 
     background-color: var(--background);
+    padding: 20px;
+    
     
 }
 
@@ -39,11 +41,19 @@
 
 /* logo css */
 
+.logo{
+
+    margin: auto;
+}
+
 .logo img{
 
     width : 160px;
-    padding: 30px 0px 30px 30px;
     
+}
+
+.menu-links{
+    margin: auto;
 }
 
 
