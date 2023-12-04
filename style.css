@@ -5,3 +5,35 @@
 }
 
 
+/* Global setting css start here */
+
+
+
+
+
+/* main menu background css start */
+
+
+.container{
+
+    background-color: #fcfcfc;
+    
+}
+
+.container .nav {
+
+    display: flex;
+    
+}
+
+.page-name li{
+
+    display: inline-block;
+}
+
+.page-name li a{
+
+    text-decoration: none;
+    color: ;
+}
+
