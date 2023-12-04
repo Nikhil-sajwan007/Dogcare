@@ -8,7 +8,12 @@
 /* Global setting css start here */
 
 
+:root{
 
+    --Primary-color : #bf4619;
+    --secondary-color : #f29d35;
+    
+}
 
 
 /* main menu background css start */
