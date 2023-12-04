@@ -2,17 +2,21 @@
 
     padding: 0;
     margin: 0;
+
 }
 
 
 /* Global setting css start here */
 
 
-:root{
+:root {
 
     --Primary-color : #bf4619;
     --secondary-color : #f29d35;
+    --background : #EDEDED
+    ;
     
+
 }
 
 
@@ -21,7 +25,7 @@
 
 .container{
 
-    background-color: #fcfcfc;
+    background-color: var(--background);
     
 }
 
@@ -31,14 +35,39 @@
     
 }
 
-.page-name li{
+
+
+/* logo css */
+
+.logo img{
+
+    width : 160px;
+    padding: 30px 0px 30px 30px;
+    
+}
+
+
+.page-name{
+
+    border: 2px solid red;
+    display: flex;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+
+
+.page-name li {
 
     display: inline-block;
+    padding-left: 30px;
+    
+    
 }
 
 .page-name li a{
 
     text-decoration: none;
-    color: ;
+    color: var(--Primary-color);
 }
 
