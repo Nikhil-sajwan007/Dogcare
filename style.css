@@ -5,6 +5,11 @@
 
 }
 
+a{
+
+    text-decoration: none;
+}
+
 body{
 
     font-family: 'Nunito'; font-size: 16px;
@@ -18,8 +23,9 @@ body{
 
     --Primary-color : #bf4619;
     --secondary-color : #f29d35;
-    --background : #EDEDED
-    ;
+    --background : #EDEDED;
+    --black : #242424;
+  
     
 
 }
@@ -105,4 +111,101 @@ color: var(--Primary-color)
 
 
     color: var(--background);
+}
+
+
+
+/* navigation bar css ends here */
+
+
+
+.banner{
+
+    background-image: url(/Image/pexels-anna-shvets-4588013\ \(1\).jpg);
+   background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    background-position: center;
+    padding: 20% auto;
+
+    
+
+}
+
+
+.head-text{
+
+    /* border: 1px solid red; */
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+
+    
+}
+
+
+.inner-box{
+
+    width: 40%;
+}
+
+.welcome{
+
+    color: var(--black);
+    line-height: 1;
+    
+}
+
+.head-text h1{
+
+    color: var(--Primary-color);
+    font-size: 3.5rem;
+    line-height: 1;
+}
+
+
+.btn1{
+
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: var(--Primary-color);
+    color: var(--background);
+    margin-top: 20px;
+    display: block;
+    
+}
+
+.btn1:hover{
+
+
+    background-color: var(--secondary-color);
+    color: var(--background);
+    cursor: pointer;
+
+}
+
+.head-text p{
+
+    line-height: 1.75;
+    margin-top: 12px;
+}
+
+
+
+
+.intro{
+
+    width: 80%;
+    /* border: 1px solid red; */
+    margin: 10px auto;
+    padding: 40px 0px 40px 0px;
+    display: block;
+
+}
+
+h2{
+
+    line-height: 1.25;
 }
