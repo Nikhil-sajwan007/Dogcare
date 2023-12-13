@@ -125,8 +125,11 @@ color: var(--Primary-color)
    background-repeat: no-repeat;
     background-size: cover;
     height: 80vh;
-    background-position: center;
+    background-position: top;
     padding: 20% auto;
+    
+  
+
 
     
 
