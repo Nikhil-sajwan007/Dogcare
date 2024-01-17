@@ -38,11 +38,12 @@ body{
 
     background-color: var(--background);
     padding: 20px;
+    border: 1px solid red;
     
     
 }
 
-.container .nav {
+ .nav {
 
     display: flex;
     width: 80%;
@@ -211,4 +212,86 @@ color: var(--Primary-color)
 h2{
 
     line-height: 1.25;
+}
+
+.inner-usp{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.usp {
+
+    border: 1pc solid red;
+}
+
+.pad{
+
+    padding-top: 20px;
+}
+
+.usp-inner{
+
+    width: 80%;
+    border : 1px solid green;
+    margin: 10px auto;
+    padding: 40px 0px 40px 0px;
+    display: flex;
+    justify-content: space-between;
+    gap: 18px;
+}
+
+.usp-inner .box01{
+
+  
+    text-align: center;
+    padding: 60px 40px 60px 40px;
+    border: 1px solid red;
+    border-radius: 10px;
+    background-color: rgb(243, 243, 243);
+    /* margin: 0px 10px; */
+
+
+}
+
+
+.heading-content {
+
+    text-align: center;
+
+}
+
+
+.padding-box {
+
+    padding: 60px 0px 60px 0px;
+}
+
+
+.usp-inner .box01:hover {
+
+    background-color: transparent;
+}
+
+
+/* .parallax img{
+
+    
+    
+    
+} */
+
+
+.product-slider{
+    /* background-color: aquamarine; */
+}
+
+
+.product-card{
+
+    background-color: gray;
+    padding: 10px;
 }

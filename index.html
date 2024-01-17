@@ -5,11 +5,30 @@
     <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+        integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="script.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"
+        integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <title>Dog Care</title>
 </head>
 
 <body>
+    <div class="container">
+
+    </div>
 
     <div class="container">
 
@@ -70,14 +89,18 @@
 
         <div class="intro">
 
-<h2>Lorem ipsum dolor sit amet consectetur.</h2>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque animi ea vitae, ad molestiae esse placeat in
-            laborum labore error commodi asperiores consequatur repudiandae harum quisquam quia. Eveniet, ducimus
-            laudantium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum neque atque recusandae nesciunt,
-            corrupti possimus cupiditate ex pariatur cumque ut exercitationem nam consectetur placeat accusamus maiores,
-            quasi earum at error aspernatur quod quaerat non! A perspiciatis consequuntur debitis nostrum alias!
+            <h2>Lorem ipsum dolor sit amet consectetur.</h2>
+            <p class="pad"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque animi ea vitae, ad molestiae
+                esse placeat in
+                laborum labore error commodi asperiores consequatur repudiandae harum quisquam quia. Eveniet, ducimus
+                laudantium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum neque atque recusandae
+                nesciunt,
+                corrupti possimus cupiditate ex pariatur cumque ut exercitationem nam consectetur placeat accusamus
+                maiores,
+                quasi earum at error aspernatur quod quaerat non! A perspiciatis consequuntur debitis nostrum alias!
 
-            <a href="#">  <button class="btn1">About us</button></a>
+            </p>
+            <a href="#"> <button class="btn1">About us</button></a>
 
         </div>
 
@@ -86,21 +109,106 @@
     </div>
 
 
+    </div>
+
+
+
+
+
+    <div class="container padding-box">
+
+
+
+        <!-- <div class="heading-content"><h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2></div> -->
+
+        <div class="row usp-inner">
 
 
 
 
 
 
+            <div class="column box01">
+
+                <img src="/Image/Logo.png" alt="" srcset="">
+                <h3 class="pad">Lorem ipsum dolor sit amet consectetur.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, debitis libero. Inventore.</p>
 
 
 
+            </div>
+            <div class="column box01"><img src="/Image/Logo.png" alt="" srcset="">
+                <h3 class="pad">Lorem ipsum dolor sit amet consectetur.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, debitis libero. Inventore.</p>
+            </div>
+            <div class="column box01"><img src="/Image/Logo.png" alt="" srcset="">
+                <h3 class="pad">Lorem ipsum dolor sit amet consectetur.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, debitis libero. Inventore.</p>
+            </div>
+
+        </div>
 
 
 
     </div>
 
+    <div class="row container">
 
+        <div class="product-slider usp-inner">
+
+            <div class="owl-carousel owl-theme">
+                <div class="product-card">
+                    
+                
+                
+                
+                
+                </div>
+                <div> <img src="/Image/Logo.png" alt="" ></div>
+                <div> Your Content </div>
+                <div> Your Content </div>
+                <div> Your Content </div>
+                <div> Your Content </div>
+                <div> Your Content </div>
+            </div>
+
+
+
+
+
+
+        </div>
+
+
+
+    </div>
+<script>
+
+
+
+$('.owl-carousel').owlCarousel({
+    loop: true,
+    margin: 10,
+    nav: false,
+    dots: false
+    autoplay: true,
+    responsive: {
+        0: {
+            items: 1
+        },
+        600: {
+            items: 3
+        },
+        1000: {
+            items: 5
+        }
+    }
+})
+
+</script>
+
+    <script src="jquery.min.js"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
 </body>
 
 </html>
