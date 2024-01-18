@@ -180,6 +180,10 @@ color: var(--Primary-color)
     display: block;
     
 }
+.btn1 a{
+
+    color: white;
+}
 
 .btn1:hover{
 
@@ -292,6 +296,54 @@ h2{
 
 .product-card{
 
-    background-color: gray;
-    padding: 10px;
+    background-color: rgb(224, 224, 224);
+    
+    border-radius: 8px;
+
+}
+
+.product-inner-box{
+
+    padding: 15px 15px;
+}
+
+.inner-box {
+
+    width: 80%;
+}
+
+
+.footer{
+
+background-color: #242424;
+
+}
+
+
+.footer-inner {
+
+    width: 80%;
+    border: 1px solid white;
+    margin: 10px auto;
+}
+
+.footer-logo{
+
+ text-align: center;
+}
+
+.footer-menu{
+
+    text-align: center;
+
+    border-bottom: 2px solid gray;
+}
+
+
+.footer-menu ul li{ 
+
+    display: inline-block;
+    color: var(--background);
+    padding: 0px 5px;
+    
 }
