@@ -316,36 +316,6 @@ h2{
 .footer{
 
 background-color: #242424;
+padiing : 30px 0px;
 
 
-
-}
-
-
-.footer-inner {
-
-    width: 80%;
-    border: 1px solid white;
-    margin: 10px auto;
-}
-
-.footer-logo{
-
- text-align: center;
-}
-
-.footer-menu{
-
-    text-align: center;
-
-    border-bottom: 2px solid gray;
-}
-
-
-.footer-menu ul li{ 
-
-    display: inline-block;
-    color: var(--background);
-    padding: 0px 5px;
-    
-}
